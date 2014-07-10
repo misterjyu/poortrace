@@ -13,7 +13,9 @@ the above command will generate a gdb.txt file
 
 Now run ./ida_highlight.py
 
-it will generate highlight.idc and clear.idc
+it will generate address.txt, highlight.idc and clear.idc
+
+The address.txt is a place holder of address from gdb.txt
 
 Run IDA pro and load the highlight.idc script.  It will highlight the instructions that gdb recorded as executed.
 
