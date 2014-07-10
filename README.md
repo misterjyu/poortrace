@@ -7,6 +7,10 @@ To use:
 
 assuming we have a ELF binary called "hello" we want to trace.
 
+edit the trace.gdb and change the "$start_address" variable to point to the starting address of the bianry file.
+
+then run:
+
 gdb --batch-silent -x trace.gdb ./hello
 
 the above command will generate a gdb.txt file
