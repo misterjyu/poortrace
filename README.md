@@ -1,13 +1,13 @@
 poortrace
 =========
 
-scripts that generates an IDA script to highlight instructions that were executed in GDB. 
+scripts that generates an IDA script to highlight instructions of a binary that was executed in GDB. 
 
 To use:
 
 assuming we have a ELF binary called "hello" we want to trace.
 
-gdb --batch -x trace.gdb ./hello
+gdb --batch-silent -x trace.gdb ./hello
 
 the above command will generate a gdb.txt file
 
